@@ -24,7 +24,7 @@
 
 /* Begin PBXFileReference section */
 		AFAAA8541A804E2100A43345 /* C-Starter-Project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C-Starter-Project"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AFAAA8571A804E2100A43345 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		AFAAA8571A804E2100A43345 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = main.c; path = "S01A1-FizzBuzz/main.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +41,7 @@
 		AFAAA84B1A804E2100A43345 = {
 			isa = PBXGroup;
 			children = (
-				AFAAA8561A804E2100A43345 /* C-Starter-Project */,
+				AFAAA8561A804E2100A43345 /* S01A1-FizzBuzz */,
 				AFAAA8551A804E2100A43345 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,11 +54,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AFAAA8561A804E2100A43345 /* C-Starter-Project */ = {
+		AFAAA8561A804E2100A43345 /* S01A1-FizzBuzz */ = {
 			isa = PBXGroup;
 			children = (
 				AFAAA8571A804E2100A43345 /* main.c */,
 			);
+			name = "S01A1-FizzBuzz";
 			path = "C-Starter-Project";
 			sourceTree = "<group>";
 		};
@@ -96,7 +97,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AFAAA84F1A804E2100A43345 /* Build configuration list for PBXProject "C-Starter-Project" */;
+			buildConfigurationList = AFAAA84F1A804E2100A43345 /* Build configuration list for PBXProject "S01A1-FizzBuzz" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -216,7 +217,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AFAAA84F1A804E2100A43345 /* Build configuration list for PBXProject "C-Starter-Project" */ = {
+		AFAAA84F1A804E2100A43345 /* Build configuration list for PBXProject "S01A1-FizzBuzz" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AFAAA8591A804E2100A43345 /* Debug */,
@@ -232,6 +233,7 @@
 				AFAAA85D1A804E2100A43345 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
